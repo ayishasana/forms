@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>forms</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>BIODATA</legend>
+                <label>First Name</label>
+                <input type="text" class="input" name="first name" value=""/><br><br>
+                <label>Last Name</label>
+                <input type="text" class="input" name="last name" value=""/><br><br>
+                <label>Address:</label>
+                <textarea rows="5" cols="20" class="input"></textarea><br><br>
+                <label>Mobile No:</label>
+                <input type="tel" class="input" name="phone" placeholder="1234-567-890" required><br><br>
+                <label>DOB</label>
+                <input type="date" class="input" id="dob" name="date of birth"><br><br>
+                <label>Email</label>
+                <input type="email" class="input" id="email" name="email"><br><br>
+                <label>Password</label>
+                <input type="password" class="input" id="password" name="password"><br><br>
+                <label>Gender</label>
+                <input type="radio" class="input" id="gender" name="gender" value="male">male
+                <input type="radio" class="input" id="gender" name="gender" value="female">female<br><br>
+                <label>Qualification</label>
+                <input type="checkbox" class="input" id="Qualification" name="sslc" value="sslc">SSLC
+                <input type="checkbox" class="input" id="Qualification" name="+2" value="+2">+2
+                <input type="checkbox" class="input" id="Qualification" name="Degree" value="Degree">Degree<br><br>
+                <label>District</label>
+                <select>
+                    <option>Calicut</option>
+                    <option>Kannur</option>
+                    <option>Thrissur</option>
+                    <option>Malappuram</option>
+                </select>
+                <br><br>
+                <input type="submit" value="submit">
+
+            </fieldset>
+        </form>
+    </body>
+</html>
